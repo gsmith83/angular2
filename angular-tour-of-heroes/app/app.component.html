@@ -1,0 +1,10 @@
+<h1>{{title}}</h1>
+<!-- /** <my-heroes></my-heroes> Instead of listing heroes component, make user click the heroes nav link and use router */-->
+<nav>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+    <!-- /** defines path of the link */ -->
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+</nav>
+
+<!--/** tells router to display component immediately below this tag */-->
+<router-outlet>
